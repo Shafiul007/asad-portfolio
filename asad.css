@@ -1,0 +1,53 @@
+*{
+    margin: 0 auto;
+    padding: 0%;
+    background-color:#8d6b6b;
+}
+header{
+  padding: 5px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+header h1{
+    color: rgb(46, 49, 44);
+    font-size: 45px;
+    font-weight:bolder;
+   
+}
+header h1 span{
+    color: rgb(228, 33, 33);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    
+    align-items: center;
+}
+header nav ul li{
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+header nav ul li a{
+    text-decoration: none;
+}
+header nav ul li button{
+    background-color: aquamarine;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+header nav ul li button:hover{
+    background-color: rgb(219, 107, 2);
+    color: aliceblue;
+  
+}
+
+
