@@ -1,20 +1,20 @@
 *{
-    margin: 0 auto;
-    padding: 0%;
-    background-color:#8d6b6b;
+    margin: 0;
 }
 header{
-  padding: 5px;
+ 
   font-family: 'Ubuntu', sans-serif;
+  background-color: #c7b4b4;
 
 }
-header h1{
+nav h1{
     color: rgb(46, 49, 44);
     font-size: 45px;
     font-weight:bolder;
+    margin-left: 20px;
    
 }
-header h1 span{
+header nav h1 span{
     color: rgb(228, 33, 33);
 }
 nav{
@@ -36,7 +36,7 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
 }
-header nav ul li button{
+ button{
     background-color: aquamarine;
     font-weight: 700;
     font-size: 21px;
@@ -48,6 +48,20 @@ header nav ul li button:hover{
     background-color: rgb(219, 107, 2);
     color: aliceblue;
   
+}
+.banner{
+   
+    padding:100px 25px 0px;
+    align-items: center;
+    width:100%;
+    display:flex;
+    
+}
+.banner .banner-left h2,h1,p{
+    margin-bottom:15px;
+}
+.banner .banner-left .btn{
+    margin-right: 10px;
 }
 
 
