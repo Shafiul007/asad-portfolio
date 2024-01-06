@@ -8,6 +8,12 @@ header{
   background-color: #c7b4b4;
 
 }
+nav ul li:hover > a{
+    color: red;
+}
+i{
+    margin-right:5px;
+}
 nav h1{
     color: rgb(46, 49, 44);
     font-size: 45px;
@@ -216,10 +222,18 @@ footer img:hover{
     box-shadow:2px 2px 5px rgb(189, 156, 156),-2px -2px 5px rgb(179, 161, 161);   
 }
 footer input{
+    border:0;
     border-radius: 8px;
     padding: 5px;
 }
 footer textarea{
+    border: 0;
     border-radius: 5px;
     padding: 5px;
+}
+footer input:hover{
+    box-shadow:4px 4px 5px grey,-4px -4px 5px grey;
+}
+footer textarea:hover{
+    box-shadow:4px 4px 5px grey,-4px -4px 5px grey;
 }
