@@ -45,6 +45,10 @@ header nav ul li a{
     border-radius: 5px;
     border: 0px;
 }
+.btn:hover{
+    background-color: bisque;
+    color: rgb(224, 135, 0);
+}
 header nav ul li button:hover{
     background-color: rgb(219, 107, 2);
     color: aliceblue;
@@ -90,11 +94,80 @@ header nav ul li button:hover{
 }
 .about .abfoot{
     display: flex;
+    justify-content: space-around;
 }
 .abfoot .f1,.f2,.f3,.f4{
       width:20%;
-      margin-right:10px;
+      
       justify-content: center;
       align-items: center;
       text-align: center;
+}
+main .work{
+    text-align: center;
+    margin:20px 40px;
+    padding:40px 60px;
+}
+.skill{
+     display: flex;
+     justify-content: space-around;
+     margin:0px auto;
+     text-align: center;
+     
+}
+.skill .prg{
+    width: 20%;
+    text-align: center;
+    padding:2%;
+    
+    margin-left:20px;
+    margin-right: 20px;
+    box-shadow:2px 2px 5px black,-2px -2px 5px black;
+    border-radius:10px;
+}
+.skill .prg h3{
+    margin:10px 0px;
+}
+.skill .prg p{
+    text-align: justify;
+}
+
+.info{
+    margin:70px 30px 0px;
+
+    text-align: center;
+}
+.info h1{
+    font-size:50px;
+    margin-bottom:30px;
+}
+.info .infoa{
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.info .infoa .infoa1{
+    box-shadow:3px 3px 5px grey,-3px -3px 5px grey;
+    width:50%;
+    padding:8%;
+    margin:10px 15px 5px;
+    text-align: left;
+    border-radius:10px;
+}
+.info .infoa .infoa1 h2{
+    margin: 15px;
+}
+.info .infoa .infoa1 .dv h3,h4{
+    margin: 5px;
+}
+.info .infoa .infoa1 .dv{
+    margin-bottom:40px;
+    border-bottom:1px solid black;
+}
+.info .infoa .infoa1 .dv:hover{
+    box-shadow:2px 2px 5px grey,-2px -2px 5px grey;
+    border-radius:12px;
+    padding:5px;
 }
