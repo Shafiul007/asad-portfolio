@@ -37,7 +37,7 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
 }
- button{
+ button,.btn{
     background-color: aquamarine;
     font-weight: 700;
     font-size: 21px;
@@ -48,6 +48,7 @@ header nav ul li a{
 .btn:hover{
     background-color: bisque;
     color: rgb(224, 135, 0);
+    border:1px solid green;
 }
 header nav ul li button:hover{
     background-color: rgb(219, 107, 2);
@@ -103,6 +104,27 @@ header nav ul li button:hover{
       align-items: center;
       text-align: center;
 }
+.f1:hover{
+   border:2px solid grey;
+   border-radius:5px;
+   box-shadow:4px 4px 5px white,-4px -4px 5px white;
+  
+}
+.f2:hover{
+   border:2px solid grey;
+   border-radius:5px;
+   box-shadow:4px 4px 5px white,-4px -4px 5px white;
+}
+.f3:hover{
+   border:2px solid grey;
+   border-radius:5px;
+   box-shadow:4px 4px 5px white,-4px -4px 5px white;
+}
+.f4:hover{
+   border:2px solid grey;
+   border-radius:5px;
+   box-shadow:4px 4px 5px white,-4px -4px 5px white;
+}
 main .work{
     text-align: center;
     margin:20px 40px;
@@ -122,8 +144,11 @@ main .work{
     
     margin-left:20px;
     margin-right: 20px;
-    box-shadow:2px 2px 5px black,-2px -2px 5px black;
+    
     border-radius:10px;
+}
+.skill .prg:hover{
+    box-shadow:2px 2px 5px black,-2px -2px 5px black;
 }
 .skill .prg h3{
     margin:10px 0px;
@@ -134,7 +159,7 @@ main .work{
 
 .info{
     margin:70px 30px 0px;
-
+    box-sizing: border-box;
     text-align: center;
 }
 .info h1{
@@ -155,6 +180,7 @@ main .work{
     margin:10px 15px 5px;
     text-align: left;
     border-radius:10px;
+    box-sizing: border-box;
 }
 .info .infoa .infoa1 h2{
     margin: 15px;
@@ -165,9 +191,35 @@ main .work{
 .info .infoa .infoa1 .dv{
     margin-bottom:40px;
     border-bottom:1px solid black;
+    padding:5px;
 }
 .info .infoa .infoa1 .dv:hover{
     box-shadow:2px 2px 5px grey,-2px -2px 5px grey;
     border-radius:12px;
-    padding:5px;
+    
+}
+footer{
+    display: flex;
+    background-color: rgb(218, 153, 130);
+    padding: 20px;
+    justify-content: space-around;
+}
+footer img{
+    border-radius:50%;
+    margin:20px;
+}
+footer .fleft{
+    width:50%;
+}
+footer img:hover{
+    border:2px solid grey;
+    box-shadow:2px 2px 5px rgb(189, 156, 156),-2px -2px 5px rgb(179, 161, 161);   
+}
+footer input{
+    border-radius: 8px;
+    padding: 5px;
+}
+footer textarea{
+    border-radius: 5px;
+    padding: 5px;
 }
