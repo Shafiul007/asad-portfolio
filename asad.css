@@ -1,5 +1,7 @@
 *{
     margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 header{
   margin: 0% auto;
@@ -236,4 +238,136 @@ footer input:hover{
 }
 footer textarea:hover{
     box-shadow:4px 4px 5px grey,-4px -4px 5px grey;
+}
+@media screen and (max-width:576px) {
+    
+    nav h1{
+        color: rgb(46, 49, 44);
+        font-size: 30px;
+        font-weight:bolder;
+        margin-left: 10px;
+       
+    }
+    .btn{
+        margin-bottom: 5px;
+    }
+    .asd{
+        margin-left:15px;
+        border-radius:50%;
+        border:5px solid green;
+    }
+    
+    header nav ul li{
+        margin-right: 15px;
+        font-size: 15px;
+    
+    }
+    .about{
+        text-align:center;
+        justify-content:center;
+        align-items: center;
+        margin:10px;
+        padding:10px;
+        background-color: antiquewhite;
+    }
+    .about .abfoot{
+       flex-direction: column;
+    }
+    .abfoot .f1,.f2,.f3,.f4{
+          width:100%;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+    }
+  
+
+    main .work{
+        text-align: center;
+        margin:10px;
+        padding:10px;
+    }
+
+    .skill{
+       flex-direction: column;
+        margin:0px auto;
+        text-align: center;
+        
+   }
+   .skill .prg{
+       width: 100%;
+       text-align: center;
+       padding:2%;
+       
+       margin-left:5px;
+       margin-right: 5px;
+       
+       border-radius:10px;
+   }
+   .skill .prg:hover{
+       box-shadow:2px 2px 5px black,-2px -2px 5px black;
+   }
+   .skill .prg h3{
+       margin:10px 0px;
+   }
+   .skill .prg p{
+       text-align: justify;
+   }
+
+    .info{
+        margin:10px 5px 2px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .info h1{
+        font-size:30px;
+        margin-bottom:15px;
+    }
+    .info .infoa{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .info .infoa .infoa1{
+        box-shadow:3px 3px 5px grey,-3px -3px 5px grey;
+        width:100%;
+        padding:8%;
+        margin:5px;
+        text-align: left;
+        border-radius:10px;
+        box-sizing: border-box;
+    }
+
+    footer{
+    flex-direction: column;
+    background-color: rgb(218, 153, 130);
+    padding:5px;
+    
+}
+footer img{
+    border-radius:50%;
+    margin:10px;
+}
+footer .fleft{
+    width:100%;
+}
+footer img:hover{
+    border:2px solid grey;
+    box-shadow:2px 2px 5px rgb(189, 156, 156),-2px -2px 5px rgb(179, 161, 161);   
+}
+footer input{
+    border:0;
+    border-radius: 8px;
+    padding: 5px;
+}
+footer textarea{
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+footer input:hover{
+    box-shadow:4px 4px 5px grey,-4px -4px 5px grey;
+}
+footer textarea:hover{
+    box-shadow:4px 4px 5px grey,-4px -4px 5px grey;
+}
 }
